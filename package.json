@@ -1,0 +1,39 @@
+{
+  "name": "commander-coercions",
+  "version": "0.0.0",
+  "description": "A collection of commander coercions so you don't have to copy them from project-to-project.",
+  "author": "Wil Moore III <wil.moore@wilmoore.com>",
+  "contributors": [
+    {
+      "name": "Wil Moore III",
+      "email": "wil.moore@wilmoore.com"
+    }
+  ],
+  "keywords": [
+    "list",
+    "float",
+    "range",
+    "delimited",
+    "delimiter",
+    "increment",
+    "coercion",
+    "commander",
+    "options",
+    "optionparsing"
+  ],
+  "bin": {},
+  "main": "./index",
+  "directories": {},
+  "private": false,
+  "preferGlobal": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmoore/commander-coercions"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {},
+  "licenses": [
+    "MIT"
+  ]
+}
