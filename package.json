@@ -1,6 +1,6 @@
 {
   "name": "commander-coercions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A collection of commander coercions so you don't have to copy them from project-to-project.",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "contributors": [
