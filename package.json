@@ -23,6 +23,24 @@
   ],
   "bin": {},
   "main": "./index",
+  "scripts": {
+    "test": "tape test.js | faucet",
+    "develop": "rerun-script"
+  },
+  "watches": [
+    {
+      "script": "test",
+      "patterns": [
+        "*.js"
+      ]
+    },
+    {
+      "script": "lint",
+      "patterns": [
+        "*.js"
+      ]
+    }
+  ],
   "directories": {},
   "private": false,
   "preferGlobal": false,
@@ -30,10 +48,12 @@
     "type": "git",
     "url": "https://github.com/wilmoore/commander-coercions"
   },
-  "devDependencies": {},
-  "dependencies": {},
-  "scripts": {},
-  "licenses": [
-    "MIT"
-  ]
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^2.5.0",
+    "eslint": "^0.9.2",
+    "faucet": "0.0.1",
+    "rerun-script": "^0.4.0",
+    "tape": "^3.0.1"
+  }
 }
